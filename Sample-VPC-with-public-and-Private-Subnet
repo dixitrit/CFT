@@ -73,8 +73,8 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t2.micro
-      KeyName: new-canada-key
-      ImageId: ami-0f0e79f25a393af23
+      KeyName: existing-key-name
+      ImageId: image-id-name
       SubnetId: !Ref PrivateSubnet
       VpcId: !Ref MyVPC  # Add VpcId property
       SecurityGroupIds:
@@ -84,8 +84,8 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t2.micro
-      KeyName: new-canada-key
-      ImageId: ami-0f0e79f25a393af23
+      KeyName: existing-key-name
+      ImageId: image-id-name
       SubnetId: !Ref PrivateSubnet
       VpcId: !Ref MyVPC  # Add VpcId property
       SecurityGroupIds:
@@ -95,8 +95,8 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t2.micro
-      KeyName: new-canada-key
-      ImageId: ami-0f0e79f25a393af23
+      KeyName: existing-key-name
+      ImageId: image-id-name
       SubnetId: !Ref PublicSubnet
       VpcId: !Ref MyVPC  # Add VpcId property
       SecurityGroupIds:
