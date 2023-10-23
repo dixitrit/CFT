@@ -21,7 +21,7 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t2.micro
-      KeyName: new-canada-key
+      KeyName: existing_key_name
       SecurityGroups:
         - !Ref MySecurityGroup
-      ImageId: ami-0f0e79f25a393af23
+      ImageId: image_id_name
