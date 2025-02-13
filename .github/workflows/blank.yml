@@ -11,6 +11,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # Add your steps here
       - name: Run some script
         run: echo "Workflow triggered by another repository"
